@@ -30,3 +30,15 @@ p {
 footer {
   padding: 1.5rem 0;
 }
+
+@media screen and (min-width: 641px) {
+	body {
+		display: grid;
+		grid-template-columns: 15% auto;
+	}
+
+	header,
+	footer {
+		grid-column: span 2;
+	}
+}
