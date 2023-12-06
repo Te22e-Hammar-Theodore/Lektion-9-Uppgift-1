@@ -16,3 +16,17 @@ footer {
   border: black solid 2px;
   border-radius: 0.5rem;
 }
+
+nav ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+p {
+  text-align: left;
+}
+
+footer {
+  padding: 1.5rem 0;
+}
