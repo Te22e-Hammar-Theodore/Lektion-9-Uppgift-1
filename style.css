@@ -32,13 +32,22 @@ footer {
 }
 
 @media screen and (min-width: 641px) {
-	body {
-		display: grid;
-		grid-template-columns: 15% auto;
-	}
+  body {
+    display: grid;
+    grid-template-columns: 15% auto;
+  }
 
-	header,
-	footer {
-		grid-column: span 2;
-	}
+  header,
+  footer {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1008px) {
+  main > * {
+    flex: 1;
+  }
+  main {
+    display: flex;
+  }
 }
