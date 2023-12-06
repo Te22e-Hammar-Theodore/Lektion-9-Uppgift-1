@@ -1,7 +1,18 @@
-html{
-
+html {
+  box-sizing: border-box;
 }
 
-body{
-    
+body {
+  text-align: center;
+}
+
+header,
+nav,
+main,
+article,
+footer {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  border: black solid 2px;
+  border-radius: 0.5rem;
 }
